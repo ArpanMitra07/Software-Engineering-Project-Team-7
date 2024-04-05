@@ -1,0 +1,481 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+  .Info{
+    position: absolute;
+    bottom: 20%;
+    left: 150px;
+    width: 50%;
+    text-align: left;
+    font-size:medium;
+    font-family: Varela Round;
+    color: rgb(0, 149, 255);
+  }
+  
+
+  .bottom-left {
+    position: absolute;
+    bottom: 47%;
+    left: 450px;
+    font-size: large;
+    font-family: Open Sans;
+    color: rgb(0, 149, 255);
+  }
+
+
+  .Home {
+    position: absolute;
+    bottom: 94%;
+    left: 50px;
+    font-family: Varela Round;
+    font-size: 25px;
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+  }
+
+
+  .Home:after, .About:after, .Services:after, .Doctors:after, .Blog:after, .Contact:after, .Appointment:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 149, 255);
+    border-radius: 5px;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .Home:hover:after, .About:hover:after, .Services:hover::after, .Doctors:hover::after, .Blog:hover::after, .Contact:hover::after, .Appointment:hover::after{
+    width: 100%;
+  }
+
+
+  .About {
+    position: absolute;
+    bottom: 94%;
+    left: 150px;
+    font-family: Varela Round;
+    font-size: 25px;
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+  }
+
+
+  .Services {
+    position: absolute;
+    bottom: 94%;
+    left: 250px;
+    font-family: Varela Round;
+    font-size: 25px;
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+  }
+
+
+  .Doctors {
+    position: absolute;
+    bottom: 94%;
+    left: 375px;
+    font-family: Varela Round;
+    font-size: 25px;
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+  }
+
+
+  .Blog {
+    position: absolute;
+    bottom: 94%;
+    left: 495px;
+    font-family: Varela Round;
+    font-size: 25px;
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+  }
+
+
+  .Contact {
+    position: absolute;
+    bottom: 94%;
+    left: 580px;
+    font-family: Varela Round;
+    font-size: 25px;
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+  }
+
+
+  .Appointment {
+    position: absolute;
+    bottom: 94%;
+    left: 700px;
+    font-family: Varela Round;
+    font-size: 25px;
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+  }
+  
+ 
+  .top-left {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Open Sans;
+    color: rgb(0, 149, 255);
+  }
+
+
+  .Provide {
+    position: absolute;
+    bottom: 92.8%;
+    left: 1150px;
+    font-size: 30px;
+    font-family: Judson;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgba(255, 0, 0, 0.538);
+  }
+
+  .container1 {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .Button1 {
+    position: absolute;
+    bottom: 82%;
+    left: 170px; 
+  }
+
+
+  .Button2 {
+    position: absolute;
+    bottom: 62%;
+    left: 170px; 
+  }
+
+
+  .Button3 {
+    position: absolute;
+    bottom: 42%;
+    left: 170px; 
+  }
+
+
+  .Button4 {
+    position: absolute;
+    bottom: 22%;
+    left: 170px; 
+  }
+
+
+  .Button5 {
+    position: absolute;
+    bottom: 2%;
+    left: 170px; 
+  }
+
+
+  .Appointment1{
+    position:absolute;
+    top: 09%;
+    left: 320px;
+    font-family: Hind Vadodara;
+    color: rgb(0, 149, 255);
+    background-color: aliceblue;
+    font-size: large;
+    width: 200px;
+    border-style:outset;
+    border-radius: 7px;
+    border-color: rgb(0, 149, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+
+  .Appointment1:hover{
+    background-color: rgb(0, 149, 255);
+    color: aliceblue;
+    border-color:(0, 149, 255);
+  }
+
+
+  .OnlineConsultancy{
+    position:absolute;
+    top: 29%;
+    left: 320px;
+    font-family: Hind Vadodara;
+    color: rgb(0, 149, 255);
+    background-color: aliceblue;
+    font-size: large;
+    width: 200px;
+    border-style:outset;
+    border-radius: 7px;
+    border-color: rgb(0, 149, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .OnlineConsultancy:hover{
+    background-color: rgb(0, 149, 255);
+    color: aliceblue;
+    border-color:(0, 149, 255);
+  }
+
+
+  .OnlineMedicine{
+    position:absolute;
+    top: 49%;
+    left: 320px;
+    font-family: Hind Vadodara;
+    color: rgb(0, 149, 255);
+    background-color: aliceblue;
+    font-size: large;
+    width: 200px;
+    border-style:outset;
+    border-radius: 7px;
+    border-color: rgb(0, 149, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .OnlineMedicine:hover{
+    background-color: rgb(0, 149, 255);
+    color: aliceblue;
+    border-color:(0, 149, 255);
+    
+  }
+
+  .HealthCheckup{
+    position:absolute;
+    top: 69%;
+    left: 320px;
+    font-family: Hind Vadodara;
+    color: rgb(0, 149, 255);
+    background-color: aliceblue;
+    font-size: large;
+    width: 200px;
+    border-style:outset;
+    border-radius: 7px;
+    border-color: rgb(0, 149, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .HealthCheckup:hover{
+    background-color: rgb(0, 149, 255);
+    color: aliceblue;
+    border-color:(0, 149, 255);
+  }
+
+  .Lab{
+    position:absolute;
+    top: 89%;
+    left: 320px;
+    font-family: Hind Vadodara;
+    color: rgb(0, 149, 255);
+    background-color: aliceblue;
+    font-size: large;
+    width: 200px;
+    border-style:outset;
+    border-radius: 7px;
+    border-color: rgb(0, 149, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .Lab:hover{
+    background-color: rgb(0, 149, 255);
+    color: aliceblue;
+    border-color:(0, 149, 255);
+  }
+
+
+  .container2{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .SRS{
+    position: absolute;
+    bottom: 55%;
+    left: 10%;
+  }
+
+  .ClassDiagram{
+    position: absolute;
+    bottom: 55%;
+    left: 45%;
+  }
+
+  .UseCaseDiagram{
+    position: absolute;
+    bottom: 55%;
+    left: 80%;
+  }
+
+  .DataFlowDiagram{
+    position: absolute;
+    bottom: 15%;
+    left: 78%;
+  }
+
+  .ActivityDiagram{
+    position: absolute;
+    bottom: 15%;
+    left: 42.6%;
+  }
+
+  .SequenceDiagram{
+    position: absolute;
+    bottom: 15%;
+    left: 9%;
+  }
+
+  .container3{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .form {
+    display: inline-block;
+    background-color: #fff;
+    padding: 6vw 7vw 8vw 7vw;
+  }
+  @media (max-width: 460px) {
+    #wrapper {
+      margin: 12vh 0 15vh 0;
+    }
+  }
+  #appoint-form {
+    text-align: justify;
+  }
+  #form-head {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+  @media (max-width: 460px) {
+    #form-head {
+      font-size: 3rem;
+      text-align: center;
+    }
+  }
+  #city {
+    display: block;
+  }
+  .format {
+    padding-top: 2vw;
+    font-size: 3rem;
+  }
+  #dropdown {
+    width: 95%;
+    height: 35px;
+    font-size: 1.8rem;
+    padding-left: 8px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    background-color: #eee;
+  }
+  #date-time {
+    display: block;
+    line-height: 2.5rem;
+  }
+  #date {
+  }
+  .dtt,
+  .person-detail {
+    height: 35px;
+    font-size: 1.8rem;
+    padding-left: 8px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .dtt {
+    width: 46.5%;
+    background-color: #eee;
+    margin-top: 1.5vw;
+  }
+  #time {
+    margin-left: 8px;
+  }
+  #note {
+    display: block;
+    font-size: 15px;
+    padding-top: 3px;
+  }
+  
+  #name {
+    margin-top: 0px;
+  }
+  .person-detail {
+    display: block;
+    width: 95%;
+    margin: 12px 0 12px 0;
+    border: 1.5px solid #aaa;
+  }
+  #mobile {
+  }
+  #email {
+  }
+  #message {
+    height: 80px;
+    padding-top: 3px;
+  }
+  textarea {
+    resize: none;
+  }
+  #submit {
+    display: block;
+    border-radius: 3px;
+    width: 96%;
+    color: #fff;
+    height: 48px;
+    font-size: 2rem;
+    background-color: #29b8e6;
+    margin-top: 20px;
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  input:focus,
+  #dropdown:focus,
+  #time:focus {
+    border-color: #08f;
+    outline: none;
+    box-shadow: 1px 1px 0px #00f;
+  }
+  #submit:hover {
+    border-radius: 5px;
+    opacity: 0.5;
+  }
+  @media (max-width: 460px) {
+    .format {
+      font-size: 2.2rem;
+      padding-top: 5vw;
+    }
+    #p-details {
+      padding-top: 50px;
+    }
+    .dtt {
+      width: 45.8%;
+    }
+    .container {
+      padding: 6vw 4vw 8vw 8vw;
+    }
+  }
